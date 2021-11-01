@@ -1,11 +1,138 @@
 body{
     font-family: 'Dancing Script', cursive;
 }
-h1{
+.container{
+    width: 90%;
+    margin:auto;
+}
+.header{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+ul li{
+    float: right;
+    list-style: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+ul li a{
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    /* color: white; */
+    text-decoration: none;  
+    
+    color:black
+}
+ul li a:hover{
+    color: orangered;
+}
+.word-color a{
+    font-size: 50px;
+    text-decoration: none;  
+}
+
+.home-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    margin:0;
+}
+.home-info h2{
+    margin:0;
+}
+.home-info{
+    font-family: Arial;
+    font-size: 30px;
+}
+.orange-color{
+    color: chartreuse;
+}
+.half-width img{
+    width: 350px;
+    padding-left: 15%;
+}
+.second-div{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(shapes/7.png);
+   
+}
+.half-width{
+    font-family: Arial;
+    font-size: 30px;
+    width: 50%;
+}
+.receipies-area{
+    align-items:center;
+    font: size 20px;
+    font-family: Arial;
+}
+h6{
+    font-size: 30px;
+}
+.food-iteam{
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+}
+.food-value{
+    width: 20%;
+    padding: 10px;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 30px;
+    font-size: 24px;
+}
+.food-value img{
+    width: 100%;   
+}
+.food-name{
+    width:20%;
+    font-style:italic;
+}
+#container{
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+   align-items: center;
+   height: 200px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px gray;
+}
+.new-link{
+    width: 100%;
+    text-align: center;
+}
+.new-link{
+    margin-top: 3px;
+    font-size: 15px;
+}
+.new-link{
+    font-size: 30px;
+  margin-bottom: 0px;
+  color: #272626;
+  font-weight: 900;
+}
+
+
+
+/* h1{
     font-size: 80px;
     font-style: italic;
     color:hsla(313, 88%, 52%, 0.274);
-    text: align 50%;;
+    text-align: 50%;
     font-family: 'Dancing Script';
 
 }
@@ -13,7 +140,7 @@ h1{
 .first-class{
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
-    padding-left: 5%;
+    padding: 0 5% ;
 }
 .first-class img{
     width: 500px;
@@ -21,10 +148,7 @@ h1{
 }
 .word-color{
     color: darkblue;
-}
-section{
-    display: flex;
-}
+}  
 .link-button{
     text-decoration: none;
     background-color: orangered;
@@ -40,25 +164,24 @@ section{
     height: 70px;
     text-decoration: none;
 }
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.half-width{
+    width: 50%;
 }
-ul li{
-    list-style: none;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    font-size: 22px;
+.half-width img{
+    width: 400px;
 }
-u li a{
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-    color: white;
+h5{
+    font-size: 50px;
+    font-display: 10%;
 }
-ul li a:hover{
-    color: orangered;
+.about-me{
+    margin-right: 25%;
 }
-   
+.about-me{
+    background-image: url(shapes/7.png);
+}
+.food-value{
+    width: 50%;
+    image-rendering: auto;
+} */
